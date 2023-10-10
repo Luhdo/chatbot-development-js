@@ -1,0 +1,29 @@
+{
+  "name": "chatbot-development-backend",
+  "version": "1.0.0",
+  "description": "backend for chatbot-development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luhdo/chatbot-deployment-js.git"
+  },
+  "author": "Ludho",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Luhdo/chatbot-deployment-js/issues"
+  },
+  "homepage": "https://github.com/Luhdo/chatbot-deployment-js#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
